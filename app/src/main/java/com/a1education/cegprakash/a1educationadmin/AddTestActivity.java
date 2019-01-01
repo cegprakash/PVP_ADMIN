@@ -44,7 +44,7 @@ public class AddTestActivity extends AppCompatActivity {
         Point size = new Point();
         getWindowManager().getDefaultDisplay().getSize(size);
         addContentView(addTestButton, new ActionBar.LayoutParams(getPixels(71),getPixels(71)));
-        addTestButton.setBackgroundResource(R.drawable.round_button);
+        addTestButton.setBackgroundResource(R.drawable.round_button2);
         addTestButton.setText("+");
         addTestButton.setTextColor(getResources().getColor(R.color.colorPrimaryDark));
 

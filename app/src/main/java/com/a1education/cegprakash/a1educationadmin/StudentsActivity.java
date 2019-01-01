@@ -48,7 +48,7 @@ public class StudentsActivity extends AppCompatActivity {
         addStudentsButton = new Button(mContext);
         getWindowManager().getDefaultDisplay().getSize(size);
         addContentView(addStudentsButton, new ActionBar.LayoutParams(getPixels(71),getPixels(71)));
-        addStudentsButton.setBackgroundResource(R.drawable.round_button);
+        addStudentsButton.setBackgroundResource(R.drawable.round_button2);
         addStudentsButton.setText("+");
         addStudentsButton.setTextColor(getResources().getColor(R.color.colorPrimaryDark));
 
